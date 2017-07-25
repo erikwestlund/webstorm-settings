@@ -16,6 +16,7 @@
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="BaseOnThisFunction" />
   <action id="ChangesView.Diff" />
+  <action id="CheckinProject" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute" />
   <action id="Console.TableResult.CloneRow" />
@@ -38,6 +39,10 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="EditorChooseLookupItem" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
