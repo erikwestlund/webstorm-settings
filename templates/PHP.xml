@@ -1,0 +1,18 @@
+<templateSet group="PHP">
+  <template name="pubc" value="public function __construct()&#10;{&#10;    $END$&#10;}" description="constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="th" value="$this-&gt;$END$" description="this" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
+  <template name="pubt" value="/** @test */&#10;public function it_$NAME$ ()&#10;{&#10;    $END$&#10;}" description="test method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,21 @@
+<templateSet group="Laravel">
+  <template name="facm" value="factory($NAME$::class)-&gt;make($END$);" description="make factory" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
+  <template name="facc" value="factory($NAME$::class)-&gt;create($END$);" description="factory create" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
+  <template name="newfac" value="$factory-&gt;define($NAME$::class, function (Faker\Generator $faker) {&#10;    return [&#10;        $PARAMETERS$&#10;    ];&#10;});&#10;" description="new factory" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
