@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="ddc29f1b-b7cf-4f2d-89a2-b0ce0e6fcbe3" name="LetsRun.com" url="https://letsrun.dev">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-    </option>
-  </component>
-</application>
