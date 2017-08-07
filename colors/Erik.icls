@@ -4,7 +4,7 @@
     <property name="created">2017-07-15T19:36:28</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.1.4.0.0</property>
-    <property name="modified">2017-07-19T11:55:39</property>
+    <property name="modified">2017-08-07T04:54:51</property>
     <property name="originalScheme">Github copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="2.0" />
@@ -22,7 +22,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="292d38" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
-    <option name="CARET_COLOR" value="7b7d83" />
+    <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2b303b" />
     <option name="FILESTATUS_ADDED" value="629755" />
@@ -41,7 +41,7 @@
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="dd1144" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
-    <option name="INDENT_GUIDE" value="3c3e42" />
+    <option name="INDENT_GUIDE" value="" />
     <option name="LINE_NUMBERS_COLOR" value="888888" />
     <option name="METHOD_SEPARATORS_COLOR" value="" />
     <option name="MODIFIED_LINES_COLOR" value="" />
